@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio de Gian Fontana</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Ing. Gianfranco Fontana</h1>
+    <nav>
+      <ul>
+        <li><a href="#habilidades"> Habilidades</a></li>
+        <li><a href="#proyectos"> Proyectos</a></li>
+        <li><a href="#testimonios"> Testimonios</a></li>
+        <li><a href="#contacto"> Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+
+  <section id="habilidades">
+    <h2>🧰 Habilidades</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><span class="emoji">🌐</span><p>HTML5</p></div>
+      <div class="skill-card"><span class="emoji">🎨</span><p>CSS3</p></div>
+      <div class="skill-card"><span class="emoji">⚙️</span><p>JavaScript</p></div>
+      <div class="skill-card"><span class="emoji">📱</span><p>Responsive Design</p></div>
+      <div class="skill-card"><span class="emoji">🔧</span><p>Git & GitHub</p></div>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <h2>💼 Proyectos Destacados</h2>
+    <div class="proyecto-card" data-url="https://gunner6665.github.io/cajero/">
+      <h3>🏢 Cajero con base de datos Local Store</h3>
+      <p>Diseño responsivo con HTML5, CSS3 y JavaScript. <strong>¡100% optimizado!</strong></p>
+    </div>
+    <div class="proyecto-card" data-url="https://gunner6665.github.io/bdlocal/">
+      <h3>📋 Directorio con Base de Datos Local</h3>
+      <p>Interfaz moderna con animaciones y almacenamiento local. <strong>¡Sin dependencias!</strong></p>
+    </div>
+    <div class="proyecto-card" data-url="https://gunner6665.github.io/catalogo/">
+      <h3>🏠 Catalogo de Tienda Virtual</h3>
+      <p>Catalogo con panel de administracion y almacenamiento local. <strong>¡Con control de datos!</strong></p>
+    </div>
+  </section>
+
+  <section id="testimonios">
+    <h2>💬 Certificaciones</h2>
+    <blockquote>“Licenciatura en Ingenieria en Sistemas con Enfasis en Gerencia” – <strong>2018</strong></blockquote>
+    <blockquote>“Talleres desarrollo Web y usos de Bases de Datos” – <strong>2023</strong></blockquote>
+  </section>
+
+  <section id="contacto">
+    <h2>📬 Contactame</h2>
+    <form id="formularioContacto">
+      <input type="text" id="nombre" placeholder="Tu nombre" required />
+      <input type="email" id="correo" placeholder="Tu correo" required />
+      <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">📤 Enviar mensaje</button>
+    </form>
+    <p id="estadoFormulario"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gian Fontana. Todos los derechos reservados.</p>
+    <div class="social">
+      <a href="https://linkedin.com" target="_blank">🔗 LinkedIn</a>
+      <a href="https://github.com" target="_blank">🐙 GitHub</a>
+      <a href="https://twitter.com" target="_blank">🐦 Twitter</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
